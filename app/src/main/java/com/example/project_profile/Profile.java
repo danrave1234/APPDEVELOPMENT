@@ -17,14 +17,12 @@ public class Profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-
         personalinfo = findViewById(R.id.personalinfo);
         experience = findViewById(R.id.experience);
         review = findViewById(R.id.review);
         personalinfobtn = findViewById(R.id.personalinfobtn);
         experiencebtn = findViewById(R.id.experiencebtn);
         reviewbtn = findViewById(R.id.reviewbtn);
-        /*making personal info visible*/
         personalinfo.setVisibility(View.VISIBLE);
         experience.setVisibility(View.GONE);
         review.setVisibility(View.GONE);
